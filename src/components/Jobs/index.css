@@ -1,0 +1,156 @@
+.jobs-content {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    padding-top: 16px;
+    min-height: 100vh;
+  }
+  .jobs-container {
+    width: 100%;
+  }
+  .right-side-content {
+    padding-left: 16px;
+    width: 65%;
+  }
+  
+  .left-side-content {
+    width: 35%;
+    padding-left: 12px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #272727;
+    width: 75%;
+    height: 34px;
+    border: 2px solid #272727;
+  }
+  .search-input {
+    width: 92%;
+    height: 100%;
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 12px;
+    background-color: black;
+    border: none;
+    outline: none;
+  }
+  .search-icon {
+    width: 18px;
+    height: 18px;
+    color: white;
+    cursor: pointer;
+    margin-right: 0px;
+  }
+  .search-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+    margin-top: 2px;
+  }
+  .job-cards-container {
+    padding: 0px;
+    padding-right: 12px;
+  }
+  .failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .failure-header {
+    font-family: roboto;
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0px;
+  }
+  .failure-para {
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .retry-btn {
+    background-color: #4f46e5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 4px;
+    color: #ffffff;
+    width: 75px;
+    height: 32px;
+  }
+  
+  .profile-card-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+  }
+  .loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+  }
+  .loader-container-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+  .empty-img {
+    width: 280px;
+    height: 220px;
+    margin-top: 20%;
+  }
+  @media (max-width: 660px) {
+    .jobs-content {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 12px;
+    }
+    .search-input {
+      width: 89%;
+    }
+    .left-side-content,
+    .right-side-content {
+      width: 100%;
+    }
+  
+    .failure-img {
+      width: 240px;
+      height: 240px;
+      margin-top: 12px;
+    }
+    .profile-card-container {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+    }
+    .empty-img {
+      width: 220px;
+      height: 150px;
+      margin-left: 20%;
+      margin-top: 30px;
+    }
+  }
+  
