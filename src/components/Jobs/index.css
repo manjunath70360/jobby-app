@@ -149,8 +149,13 @@
     .empty-img {
       width: 220px;
       height: 150px;
-      margin-left: 20%;
       margin-top: 30px;
     }
+  }
+  .empty-job-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
