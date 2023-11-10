@@ -223,7 +223,7 @@ class Jobs extends Component {
     return (
       <>
         {!isEmpty ? (
-          <>
+          <div className="empty-job-container">
             <img
               src="https://assets.ccbp.in/frontend/react-js/no-jobs-img.png"
               alt="no jobs"
@@ -233,7 +233,7 @@ class Jobs extends Component {
             <p className="para">
               We could not find any jobs. Try other filters
             </p>
-          </>
+          </div>
         ) : (
           <ul className="job-cards-container">
             {jobsList.map(eachJob => (
